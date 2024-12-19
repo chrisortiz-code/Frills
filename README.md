@@ -1,6 +1,14 @@
 # NoFrills Data Cleanser
 
-**NoFrills Data Cleanser** is an inventory filtering and cleansing tool designed for small and non-comprehensive store owners. The tool features a simple interface for identifying low and zero inventory quantities and streamlining inventory updates using automated input.
+**NoFrills Data Cleanser** is an inventory filtering and cleansing tool designed for dailt usage by the store owner. Each day, upon input of the inventory file of their departments, the application provides the owner with plenty of insightful features. 
+The problem was borught to me by the owner of the NoFrills I've worked at for over 3 years now, Joe Girard. He originally worked through the cleansing using excel functions, copy, and paste. 
+
+Joe knew what to look for in terms of edge cases for the input data, output data, and the significance behind it all, so my job, as the programmer was to he figure out how to get there, this time **automatically**. 
+The product we have arrived at has been in use for over a month now, he expressed to me his gratitude,  telling me  "Thank you, I don't have to do a computer's job anymore". 
+Since then, the product has been outsourced to X new owners.
+
+
+The tool features a simple interface for identifying low and zero inventory quantities between all of a store's departments, and streamlining inventory updates back into the internal system using mouse and keyboard control.
 
 ---
 
@@ -113,15 +121,6 @@ Install required libraries using pip:
 pip install pandas tkinter pyautogui sqlite3 xlrd
 ```
 
-### Additional Modules
-
-The following modules are required and included in the standard library:
-
-- `os`
-- `shutil`
-- `datetime`
-- `time`
-
 ### Run the Application
 
 ```bash
@@ -129,6 +128,11 @@ python main.py
 ```
 
 ---
+##Final Notes
+
+Daily, the data cleansing application identifies and rectifies over 100s of inventory discrepencies across all departments, and prepares the data to be input back into the system to receive credit for properly managing your store's inventory. For each store it is employed in, it saves about hour of manual work an owner would otherwise need to do.
+
+The source files displayed in this repository are the product of Chris Ortiz and Joe Girard
 
 ## Future Enhancements
 
