@@ -1,6 +1,6 @@
 # NoFrills Data Cleanser
 
-**NoFrills Data Cleanser** is an inventory filtering and cleansing tool designed to ease the inventory management of the store owner that uses it. Each day, upon input of the inventory file of their departments, the application provides the owner with plenty of insightful features. 
+**NoFrills Data Cleanser** is an inventory filtering and cleansing tool designed to ease the inventory management of the store owner that uses it. Each day, upon input of the inventory file of their departments, the application provides the owner with insightful features, such as finding either zero or "low" quantities. 
 The problem was borught to me by the owner of Girards No Frills, the store I've worked at for over 3 years now, Joe Girard. Originally he manually reconciled his data using excel functions, copy, and paste. 
 
 Joe knew what to look for in terms of edge cases for the input data, output data, and the significance behind it all. My job, as the programmer was to figure out how to put it all together, but this time **automatically**. 
